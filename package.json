@@ -1,0 +1,15 @@
+{
+  "name": "spa-project",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/server",
+      "packages/client"
+    ]
+  },
+  "scripts": {
+    "client": "npm run start -w=client",
+    "server": "npm run dev -w=server"
+  }
+}

@@ -1,0 +1,15 @@
+* {
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: "Open Sans", serif;
+  color: #344767;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: -.025rem;
+}
