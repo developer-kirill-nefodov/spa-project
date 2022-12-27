@@ -4,7 +4,7 @@ Git clone project
 ```sh
 git clone https://github.com/developer-kirill-nefodov/spa-project.git
 
-cd ./SPA Project/
+cd ./spa-project/
 ```
 
 Install dependencies
@@ -18,9 +18,6 @@ npm run server
 ```sh
 npm run client
 ```
-
-## Description
-
 
 ## Project running
 ### Front running: http://localhost:3000
