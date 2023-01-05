@@ -20,7 +20,7 @@ npm run client
 ```
 
 ## Project running
-### Front running: http://localhost:3000
+### Frontend running: http://localhost:3000
 * dashboard: http://localhost:3000/dashboard
 * add new entry: http://localhost:3000/details/new
 * update entry: `http://localhost:3000/details/[id]`
