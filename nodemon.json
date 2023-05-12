@@ -1,0 +1,15 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/", ".idea", "restInput/*.json"],
+  "watch": ["src/"],
+  "events": {
+    "crash": "sh -c 'lsof -i :${PORT:-4000} -t | xargs kill'"
+  },
+  "execMap": {
+    "ts": "node -r ts-node/register"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js,ts,txt,jsx"
+}
